@@ -7,6 +7,11 @@
   <project path="kernel/xiaomi/msm8956" name="magicxavi/Escrima_kernel_xiaomi_msm8956" remote="github" revision="ten" />
 
  <!--HALs-->
+	
+	<remove-project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-16.0-caf-8952" />
+ <remove-project path="hardware/qcom/display-caf/msm8952" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8952" />
+ <remove-project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-16.0-caf-8952" />
+	
  <project path="hardware/qcom-caf/msm8952/audio" name="magicxavi/android_hardware_qcom_audio" remote="github" revision="ten" />
  <project path="hardware/qcom-caf/msm8952/display" name="AmolAmrit/android_hardware_qcom_display" remote="github" revision="queencake" />
  <project path="hardware/qcom-caf/msm8952/media" name="AmolAmrit/android_hardware_qcom_media" remote="github" revision="queencake"/>
