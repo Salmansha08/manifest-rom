@@ -5,6 +5,7 @@
 </p>
 
 Sync sources:
+
     $ repo init -u https://github.com/MocaRafee/manifest-pe -b ten-fe  --depth=1
     $ mkdir -p .repo/local_manifests
     $ wget https://raw.githubusercontent.com/MocaRafee/manifest-rom/pe10_fe/pekenzo.xml -O .repo/local_manifests/roomservice.xml
