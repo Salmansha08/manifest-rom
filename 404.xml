@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	
+ <!--DeviceRepos-->
+  <project path="device/xiaomi/whyred" name="MocaRafee/android_device_xiaomi_whyred" remote="github" revision="p404" />
+  <project path="device/xiaomi/sdm660-common" name="InVictusXV/device_xiaomi_sdm660-common" remote="github" revision="new" />
+  <project path="kernel/xiaomi/sdm660" name="theradcolor/android_kernel_xiaomi_whyred" remote="github" revision="kernel-eas" />
+  <project path="vendor/MiuiCamera" name="MocaRafee/vendor_MiuiCamera" remote="github" revision="ten" />
+  <project path="vendor/xiaomi" name="InVictusXV/proprietary_vendor_xiaomi_whyred" remote="github" revision="ten" />
+
+</manifest>

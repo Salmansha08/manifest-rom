@@ -1,24 +1,22 @@
-# Zenx 1.7 based on Android 10
+# Project 404, A project that shouldn't have exist by the laws of the internet just like the Schrödinger's cat xD
 
 <p align="center">
-<img src="https://github.com/ZenX-OS/XDA/blob/master/Images/ZenX-OS_logo.png" >
+<img src="https://raw.githubusercontent.com/markakash/404_stuff/master/project404-darkbanner.jpg" >
 </p>
 
 Sync sources:
 
-    $ repo init -u https://github.com/ZenX-OS/android_manifest.git -b ten
-	or shallow clone if you don't have much bandwith
-    $ repo init -u https://github.com/ZenX-OS/android_manifest.git -b ten  --depth=1
+    $ repo init -u https://github.com/P-404/platform_manifest -b qemu --depth=1
     $ mkdir -p .repo/local_manifests
-    $ wget https://raw.githubusercontent.com/MocaRafee/manifest-rom/zenxQ/zenx.xml -O .repo/local_manifests/roomservice.xml
+    $ wget https://raw.githubusercontent.com/MocaRafee/manifest-rom/p404-whyred/zenx.xml -O .repo/local_manifests/roomservice.xml
     $ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
-Building for Xiaomi Redmi Note 3 (kenzo/kate)
+Building for Xiaomi Redmi Note 5 Pro AI (Whyred)
 ---------------
 
 To build:
 
     $ export LC_ALL=C
     $ . build/envsetup.sh
-    $ lunch zenx_kenzo-userdebug
-    $ brunch zenx_kenzo-userdebug
+    $ lunch p404_whyred-userdebug
+    $ mka bacon -j4 (or ram/2)
