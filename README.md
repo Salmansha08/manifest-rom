@@ -1,12 +1,12 @@
-# Pixel Experience Fans Edition
+# Pixel Experience Plus Edition
 
 <p align="center">
-<img src="https://avatars2.githubusercontent.com/u/62373445?s=200&v=4" >
+<img src="https://avatars2.githubusercontent.com/u/38539471?s=200&v=4" >
 </p>
 
 Sync sources:
 
-    $ repo init -u https://github.com/MocaRafee/manifest-pe -b ten-fe  --depth=1
+    $ repo init -u https://github.com/PixelExperience/manifest -b ten-plus  --depth=1
     $ mkdir -p .repo/local_manifests
     $ wget https://raw.githubusercontent.com/MocaRafee/manifest-rom/pe10_fe/pekenzo.xml -O .repo/local_manifests/roomservice.xml
     $ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
