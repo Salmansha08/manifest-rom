@@ -1,9 +1,4 @@
-# Zenx based on Android 10
-
-<p align="center">
-<img src="https://github.com/ZenX-OS/XDA/blob/master/Images/ZenX-OS_logo.png" >
-</p>
-
+# RevengeOS Android 11
 Sync sources:
 
     $ repo init -u https://github.com/RevengeOS/android_manifest -b r11.0 --depth=1
