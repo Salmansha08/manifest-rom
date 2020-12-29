@@ -1,7 +1,7 @@
 # ExtendedUI #
 
 <p align="center">
-<a href="https://raw.githubusercontent.com/Extended-UI/android_manifest/android_10/ExtendedUI-banner.jpg">
+<a ="https://raw.githubusercontent.com/Extended-UI/android_manifest/android_10/ExtendedUI-banner.jpg">
 </p>
 
 Sync sources:
