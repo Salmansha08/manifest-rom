@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	
+ <!--DeviceRepos-->
+  <project path="device/xiaomi/kenzo" name="rio-31/device_xiaomi_kenzo" remote="github" revision="exui" />
+  <project path="vendor/xiaomi/kenzo" name="rio-31/vendor_xiaomi_kenzo" remote="github" revision="ten" />
+  <project path="kernel/xiaomi/msm8956" name="rio-31/kernel_xiaomi_msm8956" remote="github" revision="ten" />
+
+</manifest>
