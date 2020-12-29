@@ -10,7 +10,7 @@ Sync sources:
 	or shallow clone if you don't have much bandwith
     $ repo init -u https://github.com/rio-31/extendedUI_manifests.git -b android_10  --depth=1
     $ mkdir -p .repo/local_manifests
-    $ wget https://raw.githubusercontent.com/rio-31/manifest-rom/exeUI/exui.xml -O .repo/local_manifests/roomservice.xml
+    $ wget https://raw.githubusercontent.com/rio-31/manifest-rom/exUI/exui.xml -O .repo/local_manifests/roomservice.xml
     $ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
 Building for Xiaomi Redmi Note 3 (kenzo/kate)
